@@ -1,0 +1,15 @@
+#input-area{
+    width: 400px;
+    height: 10vh;
+    margin: 1rem;
+    display: block;
+     padding: 1rem;
+}
+#output-area
+{
+   width: 400px;
+    height: 10vh;
+    margin: 1rem;
+    display: block;
+     padding: 1rem; 
+}
