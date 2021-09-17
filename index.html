@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vanillaJS</title>
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-   
-    <h1>vanillaJS</h1>
-    <textarea id="input-area" placeholder="Type here any text to convert into banana language"></textarea>
-    <button id="btn">
-CLick Here
-    </button>
-    <!-- <textarea id="output-area" placeholder="Converted text will come here"></textarea>--> 
+<div id="main">
+    <h1 id="header">Minions Talk</h1>
+    <div id="input-text-area">
+        <textarea id="input-area" placeholder="Put your message here which you want to convert to minion language"></textarea>
+
+
+    </div>
+    <div id="button-translate">
+        <button id="btn">
+            <h2>Translate to Minion</h2>
+        </button>
+    </div>
+
+    <!-- <textarea id="output-area" placeholder="Converted text will come here"></textarea>-->
+    <div id="translate">
+        <h4 >Translated Text will come here 👇</h4>
+    </div>
     
-    <div id="output"></div>
-    <script src="app.js" type="text/javascript"></script> 
-<!--Branch made and doing changes in comment to get concept of branch in git-->
+    <div id="output">
+        <textarea id="output-textarea"></textarea>
+    </div>
+</div>
+    <footer>
+        <h3 id="about">about</h3>
+        <h4>
+            Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator
+            to convert your text from English to Minion speak or Banana language.</h4>
+        </footer>
+
+
+    
+    <script src="app.js" type="text/javascript"></script>
+    <!--Branch made and doing changes in comment to get concept of branch in git-->
 </body>
+
 </html>

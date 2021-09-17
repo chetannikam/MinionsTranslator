@@ -1,15 +1,123 @@
-#input-area{
-    width: 400px;
-    height: 10vh;
-    margin: 1rem;
-    display: block;
-     padding: 1rem;
-}
-#output-area
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+:root
 {
-   width: 400px;
-    height: 10vh;
-    margin: 1rem;
-    display: block;
-     padding: 1rem; 
+     --header-color:#FCD34D;
+     
 }
+
+#header
+{
+     background-color:var(--header-color);
+     padding: 1.5rem;
+     margin: 0px;
+     text-align: center;
+     
+}
+body
+{
+     font-family: 'Kalam', cursive;
+}
+*{
+     padding:0px;
+     margin: 0px;
+     /* height: 100%; */
+     box-sizing: border-box;
+ }
+ 
+#main
+{
+     min-height: calc(100vh - 74.4px);
+}                                            
+#input-text-area
+{
+     margin: auto;
+     max-width:600px;
+    max-height: 40vh;
+    
+}
+#translate
+{
+
+    max-width: 300px;
+    margin: auto;
+    margin-left: 25rem;
+    margin-bottom: 0rem;
+}
+#translate h4
+{
+text-align: center;
+padding:0rem;  
+margin: 0px;
+margin-top: 1rem;
+}
+#button-translate
+{
+     margin: auto;
+     max-width: 350px;
+    
+     display: block;
+     border-radius: 1rem;
+}
+#button-translate #btn
+{
+text-align: center;
+max-width: 300px;
+border: 1px solid yellow;
+font-family:'Kalam', cursive ;
+/* margin-top: 1rem; */
+padding: 1rem;
+background-color: var(--header-color);
+/* border:none; */
+}
+
+#input-text-area #input-area{
+     width: 500px;
+     height: 30vh;
+     /* margin: 1rem; */
+     margin-top: 1rem;
+     font-family: 'Kalam', cursive;
+     font-size: large;
+     padding: 1rem;
+ }
+ #output
+ {
+      
+      max-width: 600px;
+      /* margin-bottom: 30rem; */
+      margin: auto;
+      display: block;
+      /* background-color: violet; */
+ }
+ #output #output-textarea
+ {
+     width: 500px;
+     height: 10vh;
+     /* margin: 1rem; */
+     font-family: 'Kalam', cursive;
+     font-size: large;
+      padding: 1rem;
+ }
+ 
+ #about
+ {
+      text-align: center;
+      padding-top: 1rem;
+      margin: 0px;
+ }
+ footer
+ {
+  background-color:var(--header-color);
+     
+     padding:0rem 2rem 2rem 2rem;
+     text-align: center;
+     display: block;
+    
+     /* */
+      /* margin: auto; */
+ }
+ footer h4
+ {
+     max-width: 500px;
+     text-align: center;
+     margin: auto;
+ }
